@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/demo02/demo02",
     "pages/demo01/demo01",
     "pages/index/index",
     "pages/logs/logs"
@@ -15,14 +16,14 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/demo01/demo01",
-        "text": "demo1",
+        "pagePath": "pages/demo02/demo02",
+        "text": "base-wxss",
         "iconPath": "icon/1.png",
         "selectedIconPath": "icon/2.png"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "index",
+        "pagePath": "pages/demo01/demo01",
+        "text": "demo01-base-js",
         "iconPath": "icon/3.png",
         "selectedIconPath": "icon/4.png"
       }

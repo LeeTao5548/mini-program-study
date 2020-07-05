@@ -1,2 +1,78 @@
-<!--pages/demo01/demo01.wxml-->
-<text>pages/demo01/demo01.wxml</text>
+<!-- pages/demo01/demo01.wxml -->
+<!-- <text>{{message}}</text> -->
+<!-- <view >{{message}}</view>
+<view >{{num}}</view>
+<view >{{boolean}}</view>
+<view >{{person.id}}</view>
+<view >{{person.name}}</view>
+<view data-num="{{num}}">
+    test
+</view>
+<view>
+<checkbox class="" value="" disabled="false" checked="{{boolean}}" color="">
+    
+</checkbox>
+<view>
+    {{ 1 == 2 ? "lalala" : "lulli"}}
+</view>
+</view> -->
+<!-- 遍历对象数组 -->
+<!-- <view wx:for="{{list}}"  wx:for-item="item" wx:for-index="id" wx:key="id">
+    {{id}} -> {{item.name}}
+</view> -->
+<!-- 遍历对象 -->
+<!-- <view wx:for="{{person}}" wx:for-item="value" wx:for-index="key" wx:key="this">
+    key[{{key}}] -> value[{{value}}]
+</view>
+-->
+
+<!-- block 标签 -->
+<!-- <view>
+    <block wx:for="{{list}}"  wx:for-item="item" wx:for-index="id" wx:key="id">
+        {{id}} -> {{item.name}}
+    </block>
+</view>
+
+<view>
+    <view wx:if="{{false}}">
+        隐藏
+    </view>
+    <view wx:if="{{true}}">
+        显示
+    </view>   
+</view>
+
+<view>
+    <input type="text" name="text" value="{{num}}" id="1"/>
+    <view wx:if="{{num}} == 0">
+        num = 0
+    </view>
+    <view wx:elif ="{{num}} == 1">
+        num = 1
+    </view>
+    <view wx:else>
+        num = other
+    </view>
+      
+</view>
+
+<view>
+    <view hidden="{{true}}">
+        hidden
+    </view>
+      <view hidden="{{false}}">
+        show
+    </view>
+</view>  -->
+  
+  
+
+  
+ <input type="text" bindinput="handleInput"/>
+ <button bindtap="handleTap" data-operation="{{1}}">+</button>
+<button bindtap="handleTap" data-operation="{{-1}}">-</button>
+ <view> {{newNum}} </view>
+  
+
+  
+  
