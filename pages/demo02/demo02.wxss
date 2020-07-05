@@ -7,3 +7,7 @@ view .vie1 text {
 text {
   color: green;
 }
+swiper {
+  width: 100%;
+  height: calc(750rpx*247/790);
+}

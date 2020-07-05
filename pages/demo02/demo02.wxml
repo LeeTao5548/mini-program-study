@@ -1,4 +1,21 @@
-<text>
-    lalalala
+<text selectable decode>
+    lala&nbsp;&gt;&lt;lala
 </text>
+<!-- aspectFit 一般用于轮播图 -->
+<!-- widthFix 指定宽度，高度自适应 -->
+<!-- <image src="https://ae01.alicdn.com/kf/H2e717ff94b6a46729edbdd6d6bbea0aee.jpg" mode="aspectFit" lazy-load="true" />
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593945993281&di=8c63f0b7a327c0f83cfc638510a46f98&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F14%2F75%2F01300000164186121366756803686.jpg" mode="aspectFit" lazy-load="true" />
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593945993281&di=125d8fade75426ca99558171082dc708&imgtype=0&src=http%3A%2F%2Fa0.att.hudong.com%2F56%2F12%2F01300000164151121576126282411.jpg" mode="aspectFit" lazy-load="true" />
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593945993278&di=7117af0b1751a835003422437148c200&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F65%2F38%2F16300534049378135355388981738.jpg" mode="aspectFit" lazy-load="true" />
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593945993278&di=9eae0a8a4e54f526e38c896df1c4bd0c&imgtype=0&src=http%3A%2F%2Fa2.att.hudong.com%2F71%2F56%2F16300000988660128426569668958.jpg" mode="aspectFit" lazy-load="true" />
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593946044391&di=6ba5145afc7acb83b450025e14968f9e&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F20%2F56%2F19300001056606131348564606754.jpg" mode="aspectFit" lazy-load="true" /> -->
+<!-- <image src="https://ae01.alicdn.com/kf/H2e717ff94b6a46729edbdd6d6bbea0aee.jpg" mode="aspectFit" lazy-load /> -->
+
+<!-- 3648 × 2736 -->
+<swiper>
+    <swiper-item>
+        <image src="//gw.alicdn.com/tps/i4/TB12wWQMlr0gK0jSZFnSuvRRXXa.jpg_790x10000Q75.jpg_.webp" lazy-load="true" />
+    </swiper-item>
+      
+</swiper>
   
